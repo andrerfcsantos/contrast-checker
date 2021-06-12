@@ -1,0 +1,36 @@
+.ok {
+    color: #3fd03f;
+}
+
+.bad {
+    color: #dc2a19;
+}
+
+p {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #efe8e8;
+}
+
+a {
+    color: #61dafb;
+}
+
+h1, h3 {
+    color: #ffffff;
+    margin: 0.5em auto;
+}
+
+h3 {
+    color: orange;
+}
+
+.contrastDisplay {
+    display: flex;
+    margin: 1em auto;
+    border-radius: 2em;
+    height: 4em;
+    align-items: center;
+    justify-content: center;
+}
