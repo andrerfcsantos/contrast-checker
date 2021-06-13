@@ -120,20 +120,20 @@ class CheckerPage extends React.Component {
                                 color: this.getTextColorString(),
                                 backgroundColor: this.getBackgroundColorString()
                             }}>
-                            <span>
+                            <span className={classes.sampleText}>
                                 The quick brown fox jumps over the lazy dog.
                             </span>
                         </div>
 
-                        <Container>
+                        <Container >
                             <Row>
-                                <Col>
+                                <Col sm={12} md={6}>
                                     <p><b>Contrast Ratio: {ratio.toFixed(3)}</b></p>
                                     <p>Background luminance: {backgroundL.toFixed(3)}</p>
                                     <p>Text luminance: {textL.toFixed(3)}</p>
                                 </Col>
 
-                                <Col>
+                                <Col sm={12} md={6}>
                                     <p><b>WCAG Ratings:</b></p>
                                     <p>
                                         <span className={tripleAOk ? classes.ok : classes.bad}> AAA</span> |
@@ -154,7 +154,7 @@ class CheckerPage extends React.Component {
 
                         <Container>
                             <Row>
-                                <Col>
+                                <Col sm={12} md={6}>
                                     <RGBPicker
                                         title="Background color"
                                         colors={{
@@ -168,7 +168,7 @@ class CheckerPage extends React.Component {
                                     />
                                 </Col>
 
-                                <Col>
+                                <Col sm={12} md={6}>
                                     <RGBPicker
                                         title="Text color"
                                         colors={{

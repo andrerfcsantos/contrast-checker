@@ -33,4 +33,10 @@ h3 {
     height: 4em;
     align-items: center;
     justify-content: center;
+    min-height: 4em;
+    height: max-content;
+}
+
+.sampleText {
+    max-width: 80%;
 }
